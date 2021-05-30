@@ -34,8 +34,55 @@
 
 <div class="container cbox">
 <h1 class="text-center">Extra large >=1200px</h1>
+<div class="row arow">
+     <div class="col-xl-2 col-lg-3 col-md-4 adiv" ></div> <!--if we just write col. So, It will be for extra small. and column area is also not defined. it will auto adjust. col-7  -->
+    <div class="col-xl-2 col-lg-3 col-md-4 bdiv" ></div>
+    <div class="col-xl-2 col-lg-3 col-md-4 cdiv" ></div>
+    <div class="col-xl-2 col-lg-3 col-md-4 ddiv" ></div>
+    <div class="col-xl-2 col-lg-3 col-md-4 ediv" ></div>
+    <div class="col-xl-2 col-lg-3 col-md-4 fdiv" ></div>
+
+</div>
+<h1 class="text-center">large >=992px</h1>
+<div class="row arow">
+    <div class="col-lg-2 adiv" ></div>
+    <div class="col-lg-2 bdiv" ></div>
+    <div class="col-lg-2 cdiv" ></div>
+    <div class="col-lg-2 ddiv" ></div>
+    <div class="col-lg-2 ediv" ></div>
+    <div class="col-lg-2 fdiv" ></div>
+
+</div>
+<div class="row arow">
+    <div class="col-4 adiv"></div>
+    <div class="col-4 bdiv"></div>
+    <div class="w-100"></div> <!--It will forcefully break the column-->
+    <div class="col-4 cdiv"></div>
+</div>
+<div class="row ">
+    <div class=" col-3  order-2">First</div> <!-- order for order the column order-1,order-2, we class also add order-first,order-last, -->
+    <div class=" col-3  order-1">Second</div>
+    <div class=" col-3 order-md-3">third</div> <!--It will come into 3rd when medium screen -->
+    <div class=" col-3 order-4">fourth</div>
+</div>
+<div class="row">
+    <div class="col-3 adiv" ></div>
+    <div class="col-3 offset-md-6 bdiv"></div> <!--It is like a pre break. but when medium come it will come close to each other-->
 </div>
 
-
+<div class="row">
+    <div class="col-6">
+        <div class="row"> <!--Here is an example of nesting column-->
+        <div class="col-2 adiv"></div>
+        <div class=" col-2 bdiv"></div>
+        <div class="col-2 cdiv"></div>
+        <div class="col-2 ddiv"></div>
+        <div class="col-2 ediv"></div>
+        <div class="col-2 fdiv"></div>
+    </div>
+    </div>
+    <div class="col-6"></div>
+</div>
+</div>
 </body>
 </html>
