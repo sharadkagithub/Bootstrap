@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h4 class="text-primary">buttons in a single line</h4>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About us</button>
+        <button type="button" class="btn btn-primary">Contact us</button>
+    </div>
+    <hr>
+    <h4 class="text-success">button sizes</h4>
+    <div class="btn-group-lg"> <!--for small btn-group-sm-->
+        <h5 class="text-success">large</h5>
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About us</button>
+        <button type="button" class="btn btn-primary">Contact us</button>
+    </div>
+    <hr>
+    <h4 class="text-danger">Vertical button</h4>
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About us</button>
+        <button type="button" class="btn btn-primary">Contact us</button>
+    </div>
+    <hr>
+    <h4 class="h4">Nesting Button Groups & Dropdown Menus</h4>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Phones</a>
+                <a href="#" class="dropdown-item">Tablets</a>
+<!--don't know which extra cdn link is required for this effect.-->
+            </div>
+        </div>
+    
+    </div> 
+    <hr>
+    <h4 class="h4">Split Button Dropdowns</h4>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary ">Sony</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">phone</a>
+            <a href="#" class="dropdown-item">Tablet</a>
+        </div>
+    </div>
+    <hr>
+    <h4 class="h4">Vertical Button Group w/ Dropdown</h4>
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+             Sony
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+          </div>
+        </div>
+      </div>
+    <hr>
+    <h4 class="h4">Vertical Button Group Split button dropdowns </h4><!--Developed by Sharad-->
+    <div class="btn-group-vertical">
+        <button class="btn btn-primary">Apple</button>
+        <button class="btn btn-primary">Samsung</button>
+       
+        <div class="btn-group">
+            <button class="btn btn-primary">Sony</button>
+            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"><span class="caret"></span></button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Phone</a>
+                <a href="#" class="dropdown-item">Tablets</a>
+            </div>
+            
+        </div>
+    </div>
+    <hr>
+    <!--you can see one more example on w3schools-->
+</div>    
+</body>
+</html>
